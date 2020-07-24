@@ -1,0 +1,31 @@
+# array of user connections
+users:
+
+  # reddit connection details
+  # https://reddit.com/prefs/apps
+  - username: '<username>'
+    password: '<password>'
+    client_id: '<client_id>'
+    client_secret: '<client_secret>'
+
+  # ...
+
+# config for submissions
+submissions:
+  # burn type (delete, overwrite)
+  burn_type: overwrite
+  # burn when item is older than max_age_days
+  max_age_days: 2
+  # template to use for overwriting
+  template: >-
+    This material has been overwritten to protect the privacy and security of the account holder.
+
+# config for comments
+comments:
+  # burn type (delete, overwrite)
+  burn_type: overwrite
+  # burn when item is <= than max_age_days
+  max_age_days: 2
+  # template to use for overwriting
+  template: >-
+    This material has been overwritten to protect the privacy and security of the account holder.

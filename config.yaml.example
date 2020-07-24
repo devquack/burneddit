@@ -14,7 +14,7 @@ users:
 submissions:
   # burn type (delete, overwrite)
   burn_type: overwrite
-  # burn when item is older than max_age_days
+  # burn when item is >= than max_age_days
   max_age_days: 2
   # template to use for overwriting
   template: >-
@@ -24,7 +24,7 @@ submissions:
 comments:
   # burn type (delete, overwrite)
   burn_type: overwrite
-  # burn when item is <= than max_age_days
+  # burn when item is >= than max_age_days
   max_age_days: 2
   # template to use for overwriting
   template: >-
